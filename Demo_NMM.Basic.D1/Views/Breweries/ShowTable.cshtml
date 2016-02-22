@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Demo_NMM.Basic.Models.Brewery>
+
+@{
+    ViewBag.Title = "Show Table";
+}
+
+<h2>List of Breweries</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Address
+        </th>
+        <th>
+            City
+        </th>
+        <th>
+            Zip
+        </th>
+        <th>
+            Phone
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.Name
+        </td>
+        <td>
+            @item.Address
+        </td>
+        <td>
+            @item.City
+        </td>
+        <td>
+            @item.Zip
+        </td>
+        <td>
+            @item.Phone
+        </td>
+    </tr>
+}
+
+</table>

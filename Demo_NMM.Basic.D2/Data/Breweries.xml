@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Breweries>
+  <Brewery id="1">
+    <Name>Right Brain Brewery</Name>
+    <Address>225 E. 16th St</Address>
+    <City>Traverse City</City>
+    <State>CA</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 944-1239</Phone>
+  </Brewery>
+  <Brewery id="3">
+    <Name>Beggars Brewery</Name>
+    <Address>4177 Village Park Dr. Suite C</Address>
+    <City>Traverse City</City>
+    <State>CO</State>
+    <Zip>49684</Zip>
+    <Phone>N/A</Phone>
+  </Brewery>
+  <Brewery id="4">
+    <Name>Test</Name>
+    <Address>Test Address</Address>
+    <City>TestCity</City>
+    <State>ME</State>
+    <Zip>12345</Zip>
+    <Phone>5555555555</Phone>
+  </Brewery>
+</Breweries>
